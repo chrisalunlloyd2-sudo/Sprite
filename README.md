@@ -1,2 +1,46 @@
 # Sprite
 Double wrapped triplet :)
+# KAI 9000 Matrix CE Sprite Architecture
+An autonomous, DePIN-backed, Human-in-the-Loop (HITL) multi-agent grid. This architecture orchestrates high-speed code generation via a localized speculative model triplet, gates execution using physical hardware telemetry (ATC), tracks compute costs on an immutable ledger, and enforces a zero-waste performative database layer.
+## System Topology
+The system is split into two primary operational wrappers surrounding the core execution plane:
+ * **Wrapper 1: Performative Code Cache** (BM25 Lexical Engine)
+ * **The Tok Tower** (Human-in-the-Loop Verification Gate with Draft Triplet Layer: SmolLM-135M, 250M, 500M)
+ * **Execution Plane** (Concurrent Multiproc Agents: IDE Driver, Task Steerer, ATC Communicator)
+ * **Wrapper 2: Script Pyramids** (Sandboxed Automation Tools)
+## File System Mapping
+ * **contracts/SpriteControlTower.sol** — On-chain DePIN accounting and micro-loans
+ * **data/action_vault.db** — Shared state vector/NoSQL storage
+ * **scripts/genetic_engine/orchestrator.py** — Autonomous prompt mutation engine
+ * **scripts/pyramids/runner.py** — Tiered tool execution (Level 1-3 tools)
+ * **scripts/testing/concurrent_master.py** — Multi-processing agent test bed
+ * **scripts/testing/hitl_master.py** — Human-in-the-Loop interception loop
+ * **scripts/viper_scripts/** — Local core utility and execution files
+ * **.config/oauth_cli/session.env** — Encrypted token storage room
+## Core Components
+### 1. The Execution Plane (The Sprites)
+Three decoupled, concurrent processes running simultaneously via Python's multiprocessing library to avoid GIL lockups:
+ * **IDE Driver:** Reads local workspace states, tracks file shifts, and stages change logs.
+ * **Task Steerer:** Evaluates short-term goals against the long-term project matrix.
+ * **ATC Communicator:** Continuously monitors hardware telemetry (cpu stress, available RAM, free HDD) and dynamically throttles execution parameters.
+### 2. Wrapper 1: Performative Code DB
+A lexical verification barrier powered by BM25 matching. Before any token generation occurs, incoming prompts are verified against historical data. If an exact match exists, the compiled code block is instantly withdrawn from storage, protecting your compute allocation.
+### 3. The Tok Tower & HITL Gate
+Gates speculative model output (drafted by the 135M/250M/500M array) and shifts verification authority away from automated modules directly to you:
+ * **Approve (y):** Automatically clears the asset price on your private DePIN ledger, commits the routine to the performative database, and releases the code to Wrapper 2.
+ * **Reject (n):** Slashes the current token branch and passes the failure vector to the Genetic Engine to mutate system prompt layers.
+### 4. Wrapper 2: Script Pyramids
+Organizes external automation routines into hierarchical difficulty tiers:
+ * **Level 1 (Base):** Atomic I/O, local adjustments, environment reading.
+ * **Level 2 (Mid):** Structured migrations, schema compilation.
+ * **Level 3 (Apex):** System-wide deployments (automatically halted by the ATC Communicator if host hardware resources drop below safety thresholds).
+## Quick-Start Deployment (Local Testnet)
+### Phase A: Spin up the Accounting Plane
+ 1. Initialize your local in-memory blockchain node by running the **anvil** command.
+ 2. In a separate pane, compile and deploy the billing logic by running the **forge create** command pointing to your local RPC URL (http://127.0.0.1:8545), your Anvil private key, and the **contracts/SpriteControlTower.sol:SpriteControlTower** path.
+### Phase B: Launch the Intercept Grid
+ 1. Ensure your local credentials env file is sourced by running **source ~/.config/oauth_cli/session.env**.
+ 2. Fire up the Human-in-the-Loop master script to track concurrent execution states by running **python scripts/testing/hitl_master.py**.
+## Security & Stability Mandate
+ * **Sandbox Isolation:** Every script initiated by the Pyramid Runner must run within an isolated container interface (such as gVisor or restricted Docker runtimes) to avoid cross-contamination of host system files.
+ * **Credit Circuit Breakers:** If an outstanding loan threshold defined inside the control tower contract is surpassed due to unexpected recursion loops, the execution plane forces an immediate emergency halt.
