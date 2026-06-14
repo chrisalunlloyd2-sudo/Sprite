@@ -71,6 +71,15 @@ A high-fidelity GUI for managing complex multi-repo architectures.
 - **Media Sentinel:** Automatic detection and preview of media assets (PNG/JPG) within the git workflow.
 - **One-Click Sync:** Automated stage-commit-push logic for streamlined development.
 
+## 📜 Log Orchestrator: Substrate Audit (Porting Complete ✅)
+A tabulated, real-time interface for monitoring agent and node health.
+
+### 📡 Key Features:
+- **Tabulated Node Views:** sidebar navigation for Matrix GUI, Hive Daemon, Qwen Server, and KQML Router.
+- **Intelligent Filtering:** Dedicated 'Errors Only' mode to isolate system exceptions and critical failures.
+- **Auto-Pruning:** Automatic truncation of large logs (>1MB) to ensure zero-waste storage and RAM optimization.
+- **Cross-Agent Consolidation:** Centralized reporting of errors from ALL active agents in the ecosystem.
+
 ## 🧠 Advanced ML Orchestration logic
 Sprite implements an **Advanced Machine Learning Orchestration** stack, moving beyond simple LLM prompts:
 - **Algebraic Mapping of Intent:** Direct mapping of user performatives to topological edges.
