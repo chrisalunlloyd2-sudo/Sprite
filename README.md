@@ -44,7 +44,7 @@ Organizes external automation routines into hierarchical difficulty tiers:
 ## Security & Stability Mandate
  * **Sandbox Isolation:** Every script initiated by the Pyramid Runner must run within an isolated container interface (such as gVisor or restricted Docker runtimes) to avoid cross-contamination of host system files.
 
-## 📁 My Documents: Unified Substrate Explorer
+## 📁 My Documents: Unified Substrate Explorer (Porting Complete ✅)
 The 'My Documents' app has been evolved into a unified file management interface, bridging local phone storage, Matrix system files, and cloud endpoints.
 
 ### 🚀 Key Features:
@@ -52,7 +52,20 @@ The 'My Documents' app has been evolved into a unified file management interface
 - **Cloud Subfolders:** Native integration with OneDrive and Google Drive via `rclone`.
 - **Network Mapping:** Automated mapping of local network drives and mounting points.
 - **Full Phone Access:** Direct visibility and editing of all files in `/sdcard` and `/sdcard/Download`.
-- **Visual Intelligence:** Native image viewer for JPG/PNG files and SQLite database explorer.
+
+## 🗑️ Recycle Bin: Persistent Rollback Substrate (Porting Complete ✅)
+A system-wide fail-safe for all data operations.
+
+### 🛠️ Key Features:
+- **Automatic Interception:** Every file deletion is logged in `recycle.db`.
+- **One-Click Rollback:** Restore files to their original absolute paths instantly.
+- **Audit Ledger:** Tracks deletion timestamps and original locations across virtual roots.
+
+## 🧠 Advanced ML Orchestration logic
+Sprite implements an **Advanced Machine Learning Orchestration** stack, moving beyond simple LLM prompts:
+- **Algebraic Mapping of Intent:** Direct mapping of user performatives to topological edges.
+- **Layered BM25 Retrieval:** Lexical precision across tiered databases.
+- **LSTM/Google Bot Hybrid:** Intelligent context-aware chat with real-time statistics mapping.
 
 ### 🖼️ System Screenshots
 ![Matrix Desktop](docs/screenshots/Screenshot_20260614_084402_Chrome.jpg)
