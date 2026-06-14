@@ -61,6 +61,16 @@ A system-wide fail-safe for all data operations.
 - **One-Click Rollback:** Restore files to their original absolute paths instantly.
 - **Audit Ledger:** Tracks deletion timestamps and original locations across virtual roots.
 
+## 🌿 Matrix Git Client: Unified Repository Sync (Porting Complete ✅)
+A high-fidelity GUI for managing complex multi-repo architectures.
+
+### 🚀 Key Features:
+- **Auto-Discovery:** Automatically scans the workspace for local git repositories.
+- **GitHub Linkage:** Integrated with `gh` CLI for remote repository listing and synchronization.
+- **Split-Tab Interface:** Dedicated views for 'Changes' (diffs) and 'Commits' (history).
+- **Media Sentinel:** Automatic detection and preview of media assets (PNG/JPG) within the git workflow.
+- **One-Click Sync:** Automated stage-commit-push logic for streamlined development.
+
 ## 🧠 Advanced ML Orchestration logic
 Sprite implements an **Advanced Machine Learning Orchestration** stack, moving beyond simple LLM prompts:
 - **Algebraic Mapping of Intent:** Direct mapping of user performatives to topological edges.
