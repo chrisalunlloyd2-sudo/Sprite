@@ -43,4 +43,19 @@ Organizes external automation routines into hierarchical difficulty tiers:
  2. Fire up the Human-in-the-Loop master script to track concurrent execution states by running **python scripts/testing/hitl_master.py**.
 ## Security & Stability Mandate
  * **Sandbox Isolation:** Every script initiated by the Pyramid Runner must run within an isolated container interface (such as gVisor or restricted Docker runtimes) to avoid cross-contamination of host system files.
- * **Credit Circuit Breakers:** If an outstanding loan threshold defined inside the control tower contract is surpassed due to unexpected recursion loops, the execution plane forces an immediate emergency halt.
+
+## 📁 My Documents: Unified Substrate Explorer
+The 'My Documents' app has been evolved into a unified file management interface, bridging local phone storage, Matrix system files, and cloud endpoints.
+
+### 🚀 Key Features:
+- **Unified Virtual Root:** One-click access to Matrix Root, Phone Internal Storage, and Downloads.
+- **Cloud Subfolders:** Native integration with OneDrive and Google Drive via `rclone`.
+- **Network Mapping:** Automated mapping of local network drives and mounting points.
+- **Full Phone Access:** Direct visibility and editing of all files in `/sdcard` and `/sdcard/Download`.
+- **Visual Intelligence:** Native image viewer for JPG/PNG files and SQLite database explorer.
+
+### 🖼️ System Screenshots
+![Matrix Desktop](docs/screenshots/Screenshot_20260614_084402_Chrome.jpg)
+![Clippy Assistant](docs/screenshots/Screenshot_20260614_084421_Chrome.jpg)
+![Unified Explorer](docs/screenshots/Screenshot_20260614_084427_Chrome.jpg)
+![System State](docs/screenshots/Screenshot_20260614_084431_Chrome.jpg)
