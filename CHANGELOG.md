@@ -2,6 +2,9 @@
 
 All notable changes to this project.
 
+## 2026-08
+- **[Docs]** docs: auto-update [skip-docs] ($hash)
+
 ## 2026-06
 - **[Changed]** [Moe autonomous] Sprite 2026-06-30 10:54 ($hash)
 - **[Docs]** docs(Sprite): autonomous update ΓÇö 1 file(s) ($hash)
