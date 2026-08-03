@@ -1,0 +1,26 @@
+﻿# Changelog
+
+All notable changes to this project.
+
+## 2026-06
+- **[Changed]** [Moe autonomous] Sprite 2026-06-30 10:54 ($hash)
+- **[Docs]** docs(Sprite): autonomous update ΓÇö 1 file(s) ($hash)
+- **[Changed]** [Moe autonomous] Sprite 2026-06-28 21:57 ($hash)
+- **[Docs]** docs(Sprite): autonomous update ΓÇö 1 file(s) ($hash)
+- **[Changed]** [Moe autonomous] Sprite 2026-06-26 12:10 ($hash)
+- **[Changed]** [Moe autonomous] Sprite 2026-06-20 14:07 ($hash)
+- **[Changed]** [Moe autonomous] Sprite 2026-06-20 04:49 ($hash)
+- **[Changed]** [Moe autonomous] Sprite 2026-06-20 04:24 ($hash)
+- **[Changed]** [Moe autonomous] Sprite 2026-06-20 03:58 ($hash)
+- **[Changed]** [Moe autonomous] Sprite 2026-06-19 23:39 ($hash)
+- **[Changed]** [Moe autonomous] Sprite 2026-06-19 23:34 ($hash)
+- **[Changed]** [Moe autonomous] Sprite 2026-06-19 22:33 ($hash)
+- **[Docs]** docs: Log Orchestrator porting complete and feature list update ($hash)
+- **[Docs]** docs: Git Client porting complete and feature list update ($hash)
+- **[Docs]** docs: Articulate update of Sprite README reflecting porting completion of Docs and Recycle Bin apps ($hash)
+- **[Added]** feat: Evolved 'My Documents' with Unified Cloud & Phone storage ($hash)
+- **[Added]** feat: Add Genesis Restore Orchestrator to docs ($hash)
+- **[Added]** feat: Genesis Restore and Standards Lockdown ($hash)
+- **[Changed]** Expand README with KAI 9000 Matrix CE detailsok ($hash)
+- **[Changed]** Initial commit ($hash)
+
