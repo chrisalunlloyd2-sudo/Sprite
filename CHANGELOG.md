@@ -35,6 +35,7 @@ All notable changes to this project.
 - **[Docs]** docs: auto-update [skip-docs] ($hash)
 - **[Docs]** docs: auto-update [skip-docs] ($hash)
 - **[Docs]** docs: auto-update [skip-docs] ($hash)
+- **[Docs]** docs: auto-update [skip-docs] ($hash)
 
 ## 2026-06
 - **[Changed]** [Moe autonomous] Sprite 2026-06-30 10:54 ($hash)
@@ -54,5 +55,4 @@ All notable changes to this project.
 - **[Docs]** docs: Articulate update of Sprite README reflecting porting completion of Docs and Recycle Bin apps ($hash)
 - **[Added]** feat: Evolved 'My Documents' with Unified Cloud & Phone storage ($hash)
 - **[Added]** feat: Add Genesis Restore Orchestrator to docs ($hash)
-- **[Added]** feat: Genesis Restore and Standards Lockdown ($hash)
 
