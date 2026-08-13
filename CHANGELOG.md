@@ -3,6 +3,7 @@
 All notable changes to this project.
 
 ## 2026-08
+- **[Changed]** [Moe autonomous] Sprite 2026-08-13 08:30 ($hash)
 - **[Changed]** [Moe autonomous] Sprite 2026-08-13 07:52 ($hash)
 - **[Changed]** [Moe autonomous] Sprite 2026-08-13 07:25 ($hash)
 - **[Changed]** [Moe autonomous] Sprite 2026-08-13 06:26 ($hash)
@@ -33,7 +34,6 @@ All notable changes to this project.
 - **[Changed]** [Moe autonomous] Sprite 2026-08-12 08:37 ($hash)
 - **[Changed]** [Moe autonomous] Sprite 2026-08-12 06:44 ($hash)
 - **[Changed]** [Moe autonomous] Sprite 2026-08-12 04:37 ($hash)
-- **[Docs]** docs: auto-update [skip-docs] ($hash)
 - **[Docs]** docs: auto-update [skip-docs] ($hash)
 - **[Docs]** docs: auto-update [skip-docs] ($hash)
 - **[Docs]** docs: auto-update [skip-docs] ($hash)
