@@ -9,6 +9,10 @@ import subprocess
 import sys
 
 def run(cmd, desc):
+    """Run.
+
+    Args: cmd, desc.
+    """
     print(f"[*] {desc}...")
     result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
     if result.returncode != 0:
@@ -18,6 +22,7 @@ def run(cmd, desc):
     return True
 
 def restore():
+    """Restore (function)."""
     print("🌌 STARTING MATRIX CE GENESIS RESTORE...")
 
     # 1. Environment Variables & Paths
