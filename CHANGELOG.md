@@ -3,6 +3,8 @@
 All notable changes to this project.
 
 ## 2026-08
+- **[Docs]** docs: document 2 public API in docs\genesis_restore_orchestrator.py (autonomous, logic-verified) ($hash)
+- **[Changed]** [Moe autonomous] Sprite 2026-08-15 03:28 ($hash)
 - **[Changed]** [Moe autonomous] Sprite 2026-08-15 02:56 ($hash)
 - **[Changed]** [Moe autonomous] Sprite 2026-08-15 02:15 ($hash)
 - **[Changed]** [Moe autonomous] Sprite 2026-08-15 01:32 ($hash)
@@ -51,6 +53,4 @@ All notable changes to this project.
 - **[Changed]** [Moe autonomous] Sprite 2026-08-13 05:45 ($hash)
 - **[Changed]** [Moe autonomous] Sprite 2026-08-13 05:02 ($hash)
 - **[Changed]** [Moe autonomous] Sprite 2026-08-13 04:02 ($hash)
-- **[Changed]** [Moe autonomous] Sprite 2026-08-13 03:27 ($hash)
-- **[Changed]** [Moe autonomous] Sprite 2026-08-13 02:35 ($hash)
 
